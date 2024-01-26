@@ -21,7 +21,7 @@ public class Member {
 
     private double owed;
 
-    private double pay;
+    private double paid;
 
     @ManyToOne
     private Group group;

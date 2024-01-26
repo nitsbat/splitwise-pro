@@ -21,9 +21,7 @@ public class GroupService {
 
     private final GroupRepository groupRepository;
     private final MemberRepository memberRepository;
-
     private final Mapper<MemberRequestDTO, Member> mapper;
-
 
     public GroupService(GroupRepository groupRepository,
                         MemberRepository memberRepository,

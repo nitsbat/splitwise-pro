@@ -1,14 +1,13 @@
 package com.app.splitwise.controller;
 
 import com.app.splitwise.dto.MemberRequestDTO;
-import com.app.splitwise.modal.Member;
 import com.app.splitwise.service.GroupService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController(value = "/api/v1")
+@RestController
 public class GroupController {
 
     private final GroupService groupService;

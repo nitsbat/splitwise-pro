@@ -12,5 +12,5 @@ import lombok.Setter;
 public class MemberRequestDTO {
     private String userName;
     private double owed;
-    private double pay;
+    private double paid;
 }
